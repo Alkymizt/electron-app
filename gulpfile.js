@@ -1,39 +1,6 @@
 // gulpfile.js
 //
- 'use strict'
-
-// const gulp = require('gulp');
-// const ts = require('gulp-typescript');
-// const tsProject = ts.createProject('tsconfig.json');
-// const rimraf = require('rimraf');
-
-// let build_dir = './app';
-
-// let deepclean = cb => {
-//     rimraf('./node_modules', cb);
-// }
-
-// let clean = cb => rimraf(`${build_dir}/**/*`, cb);
-
-// let transpile = () => tsProject.src()
-//     .pipe(tsProject())
-//     .js.pipe(gulp.dest('app'));
-
-// let htmlassets = () => gulp.src(['./src/html/**/*'])
-//     .pipe(gulp.dest('app'));
-
-
-// gulp.task('dclean', deepclean);
-
-
-// gulp.task('develop', gulp.series(
-//     clean,
-//     gulp.parallel(
-//         transpile, 
-//         htmlassets
-//     )
-// ));
-
+'use strict'
 
 const gulp = require('gulp');
 const rimraf = require('rimraf');
