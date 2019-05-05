@@ -1,2 +1,3 @@
 # electron-app
-new
+An evolving app...
+

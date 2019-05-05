@@ -1,0 +1,31 @@
+{
+  "name": "electron-app",
+  "version": "0.0.1",
+  "description": "An evolving app...",
+  "author": "Erik Almaraz",
+  "license": "",
+  "main": "./app/src/main.js",
+  "homepage": "https://github.com/Alkymizt/electron-app#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alkymizt/electron-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alkymizt/electron-app/issues"
+  },
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "start": "electron .",
+    "test": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "electron": "^5.0.0",
+    "gulp": "^4.0.1",
+    "gulp-typescript": "^5.0.1",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.5"
+  }
+}
